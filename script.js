@@ -1,3 +1,10 @@
+if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    alert("mobile");
+   }
+else {
+    alert("desktop");
+}
+
 setInterval(logger, 10);
 let op = 1
 let factor = -.01;
