@@ -4,6 +4,10 @@
             display: flex;
         }
 
+        .cybercrime div {
+            align-self: auto;
+        }
+
         .dna-body {
             display: flex;
             flex-direction: column;
@@ -38,7 +42,7 @@
             align-items: center;
             flex-direction: column;
             padding: 100px 25%;
-            height: 800px;
+            /*height: 800px;*/
         }
 
         .cards3 {
